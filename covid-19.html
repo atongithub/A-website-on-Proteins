@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Virus</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    
+</head>
+<body class="bg-grey-dark">
+    <!-- Header with Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-grey-medium">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">21BTB102T</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="proteins.html">Proteins</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dna.html">DNA</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="covid-19.html">COVID-19</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        
+        <!-- Main Content -->
+        <section>
+            <h1 class="text-center mb-4">COVID-19 Virus</h1>
+            <p class="lead">
+                COVID-19, caused by SARS-CoV-2, is a complex virus relying on various proteins for infection, replication, and survival. Understanding these proteins is key to combating the virus and developing effective treatments and vaccines.
+            </p>
+            <h2>Key Proteins and Their Roles</h2>
+            <ul class="list-group mb-4">
+                <li class="list-group-item">
+                    <strong>Spike (S) Protein:</strong> Facilitates viral entry into human cells by binding to ACE2 receptors. Mutations in this protein, seen in variants like Delta and Omicron, influence transmission rates and immune evasion.
+                </li>
+                <li class="list-group-item">
+                    <strong>Nucleocapsid (N) Protein:</strong> Protects the viral RNA and interacts with the host's immune system. It is a target for diagnostic tests due to its stability.
+                </li>
+                <li class="list-group-item">
+                    <strong>Envelope (E) and Membrane (M) Proteins:</strong> Aid in viral assembly, stability, and release from infected cells.
+                </li>
+                <li class="list-group-item">
+                    <strong>Non-Structural Proteins (NSPs):</strong> Support viral replication and immune suppression. For example, RNA-dependent RNA polymerase (RdRp) is crucial for copying the viral genome.
+                </li>
+            </ul>
+            <p>
+                Mutations in these proteins drive the emergence of new variants, making it challenging to maintain vaccine efficacy. However, advancements in bivalent vaccines targeting multiple strains show promise in adapting to these changes.
+            </p>
+        </section>
+
+         <!-- Genome Illustration Section -->
+         <section class="mt-5">
+            <h2 class="text-center">SARS-CoV-2 Genome Illustration</h2>
+            <div class="text-center">
+                <img src="assets/images/sarscov2-genome-illustration.webp" class="img-fluid mt-3 mb-5" alt="Illustration of SARS-CoV-2 Genome">
+            </div>
+        </section>
+
+        <!-- Impact of Variants Section -->
+        <section>
+            <h2>Impact of Variants</h2>
+            <p>
+                Variants like Delta and Omicron demonstrate how small changes in proteins can significantly affect transmissibility, disease severity, and immune system evasion. These mutations have led to faster-spreading strains and, in some cases, reduced vaccine effectiveness. Continued research is essential to stay ahead of these changes and protect public health.
+            </p>
+        </section>
+
+        
+        <!-- 3D Model Viewer Section -->
+        <section id="model-viewer" class="my-5">
+            <h2 class="text-center mb-4">Interactive 3D Model Viewer of: 7BZ5 - Structure of COVID-19 virus spike receptor-binding domain complexed with a neutralizing antibody</h2>
+            <div style="width: 100%; max-width: 800px; height: 459px; margin: 0 auto; overflow: hidden; position: relative; border: 3px solid rgb(255, 255, 255); border-radius: 10px;">
+                <iframe 
+                    src="https://www.rcsb.org/3d-view/7BZ5" 
+                    style="position: absolute; top: -610px; left: -80px; width: 120%; height: 1200px; border: none;" 
+                    scrolling="no">
+                </iframe>
+            </div>
+        </section>
+
+       
+    </main>
+
+     <!-- Section: How New Variants and Mutations Affect Vaccine Development -->
+     <section id="vaccine-development" class="my-5 container">
+        <h2 class="text-center mb-4">How New Variants and Mutations Affect Vaccine Development</h2>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">
+                <strong>Spike Protein Mutations:</strong> 
+                Vaccines like mRNA-based Pfizer and Moderna primarily target the spike protein. 
+                New strains, such as Omicron, with significant changes in the spike protein, may partially evade antibodies produced by existing vaccines.
+            </li>
+            <li class="list-group-item">
+                <strong>Increased Genetic Diversity:</strong>
+                Mutations in non-structural proteins or accessory proteins can enhance replication or immune evasion, complicating vaccine design. 
+                Variants may evolve under immune pressure, necessitating updated vaccines.
+            </li>
+            <li class="list-group-item">
+                <strong>Shorter Immunity Duration:</strong>
+                Rapidly changing strains might require booster shots to maintain immunity.
+            </li>
+            <li class="list-group-item">
+                <strong>Vaccine Effectiveness:</strong>
+                Vaccines need to cover multiple strains or anticipate dominant variants. 
+                Example: Bivalent vaccines targeting Omicron and earlier strains have been developed to address such challenges.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section: Impact of New Strain Proteins on Humans -->
+    <section id="strain-impact" class="my-5 container">
+        <h2 class="text-center mb-4">Impact of New Strain Proteins on Humans</h2>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">
+                <strong>Increased Transmissibility:</strong>
+                Changes in the spike protein can improve the virus's ability to infect cells, increasing the rate of spread.
+            </li>
+            <li class="list-group-item">
+                <strong>Severity of Disease:</strong>
+                Certain mutations may enhance viral replication or disrupt immune system signaling, leading to more severe symptoms. 
+                Example: Delta variant caused more severe respiratory symptoms than earlier strains.
+            </li>
+            <li class="list-group-item">
+                <strong>Immune Evasion:</strong>
+                Mutations in proteins like ORF8 may reduce the ability of the immune system to detect and respond to the virus.
+            </li>
+            <li class="list-group-item">
+                <strong>Long-term Effects:</strong>
+                Variants with unique protein interactions can trigger prolonged inflammatory responses or long COVID symptoms.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section: Proteins' Function in a Virus -->
+    <section id="protein-functions" class="my-5 container">
+        <h2 class="text-center mb-4">Proteins' Function in a Virus</h2>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">
+                <strong>Entry and Fusion:</strong>
+                Spike protein binds to receptors on the host cell surface to enable viral entry.
+            </li>
+            <li class="list-group-item">
+                <strong>Replication:</strong>
+                Non-structural proteins, like RdRp, copy the viral RNA. 
+                Proteases cleave viral polyproteins into functional units necessary for replication.
+            </li>
+            <li class="list-group-item">
+                <strong>Immune Evasion:</strong>
+                Accessory proteins suppress host immune responses by disrupting signaling pathways, such as interferon production.
+            </li>
+            <li class="list-group-item">
+                <strong>Assembly and Release:</strong>
+                Structural proteins, particularly the membrane and envelope proteins, help assemble new viral particles and release them from the host cell.
+            </li>
+        </ul>
+    </section>
+
+    <footer class="bg-grey-medium text-black text-center py-2">
+        <div class="container">
+            <ul class="footer-nav">
+                <li class="nav-item">Aditya Harikumar</li>
+                <li class="nav-item">Aryan Singh</li>
+                <li class="nav-item">Aysha</li>
+                <li class="nav-item">Ebin</li>
+                <li class="nav-item">Atul Govind M E</li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
